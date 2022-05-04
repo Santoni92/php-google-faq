@@ -14,7 +14,6 @@ foreach($topics as $topic)
     echo($topic["answer"]);
     echo('</p>');
     echo('</div>');
-
 }
 
 ?>
