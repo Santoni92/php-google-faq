@@ -3,12 +3,18 @@
 
 //importo il file contenente la struttura dati
 include('strutturaDati.php');
-/*
-foreach($questions as $question)
-{
-    ech
-    echo('<h2>');
 
-}*/
+foreach($topics as $topic)
+{
+    echo('<div>');
+    echo('<h2>');
+    echo($topic["question"]);
+    echo('</h2>');
+    echo('<p>');
+    echo($topic["answer"]);
+    echo('</p>');
+    echo('</div>');
+
+}
 
 ?>

@@ -1,5 +1,5 @@
 <?php
-$questions = [
+$topics = [
     [
         "question" => "Come state implementando la recente decisione della Corte di giustizia dell'Unione europea (CGUE) relativa al diritto all'oblio?" ,
 
@@ -36,9 +36,7 @@ $questions = [
                             </ul>
                         </li>
                         <li>La versione dei termini che regola il nostro rapporto, che può variare in base alle leggi locali.</li>
-                    </ol>
-
-                    "
+                    </ol> "
     ],
     [
         "question" => "Come faccio a rimuovere informazioni su di me dai risultati di ricerca di Google?" ,
